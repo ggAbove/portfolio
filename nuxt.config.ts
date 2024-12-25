@@ -27,6 +27,9 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  nitro: {
+    preset: 'bun',
+  },
   ui: {
     theme: {
       colors: ['primary'],
