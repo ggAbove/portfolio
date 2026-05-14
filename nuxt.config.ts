@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     preset: 'bun',
   },
   ui: {
+    fonts: false,
     theme: {
       colors: ['primary'],
     },
